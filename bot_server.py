@@ -19,7 +19,7 @@ if sys.platform.startswith('win'):
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 # ---------------- CONFIG ----------------
-API_TOKEN: Final = "----"
+API_TOKEN: Final = "8504710117:AAGuWhtkOJDmT6FufTHQuHrYpijEuA7P47M"
 
 URL_RE = re.compile(
     r"(?i)\b((?:https?://|ftp://|www\d{0,3}[.])[^\s()<>]+)"
